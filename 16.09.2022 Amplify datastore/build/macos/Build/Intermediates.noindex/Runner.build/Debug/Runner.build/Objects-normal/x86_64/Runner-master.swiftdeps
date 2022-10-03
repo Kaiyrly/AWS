@@ -1,8 +1,0 @@
-version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
-options: "76f8c0968adcced84919f02a0c05c093dbbe3a5c9c371f792fe3c7c7ac9e5f22"
-build_start_time: [1663809917, 210002899]
-build_end_time: [1663809927, 646739959]
-inputs:
-  "/Users/admin/Desktop/AWS/16.09.2022 Amplify datastore/macos/Flutter/GeneratedPluginRegistrant.swift": [1663809880, 505112171]
-  "/Users/admin/Desktop/AWS/16.09.2022 Amplify datastore/macos/Runner/AppDelegate.swift": [1662202293, 428196191]
-  "/Users/admin/Desktop/AWS/16.09.2022 Amplify datastore/macos/Runner/MainFlutterWindow.swift": [1662202293, 429859161]

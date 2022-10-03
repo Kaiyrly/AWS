@@ -1,8 +1,0 @@
-version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
-options: "79da6f24a5d52c6a6d3305c2d341f5c47234036e291ae98adecef06c1a95e241"
-build_start_time: [1663200970, 512853145]
-build_end_time: [1663200970, 605390071]
-inputs:
-  "/Users/admin/Desktop/learn_flutter/amplified_todo/macos/Flutter/GeneratedPluginRegistrant.swift": !private [1663200935, 267737150]
-  "/Users/admin/Desktop/learn_flutter/amplified_todo/macos/Runner/AppDelegate.swift": !private [1662202293, 428196191]
-  "/Users/admin/Desktop/learn_flutter/amplified_todo/macos/Runner/MainFlutterWindow.swift": !private [1662202293, 429859161]
