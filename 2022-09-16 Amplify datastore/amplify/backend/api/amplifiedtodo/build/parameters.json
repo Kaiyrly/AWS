@@ -1,0 +1,7 @@
+{
+    "AppSyncApiName": "amplifiedtodo",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "S3DeploymentBucket": "amplify-amplifiedtodo-staging-50803-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/a14070c3250639fd44f313fdfa2c57fda119349c"
+}
