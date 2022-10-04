@@ -19,7 +19,7 @@ To save data from DataStore, we pass the model instance to Amplify.DataStore.sav
 To delete data from DataStore, we pass the model instance to Amplify.DataStore.delete()
 
 
-##Complatibility test
+## Complatibility test
 
 | Android Emulator | ios Emulator| iPhone 11(iOS 16)| macOs (12.5.1)| Chrome |
 |:--------------|:--------------:|:--------------:|:--------------:|:--------------:|
