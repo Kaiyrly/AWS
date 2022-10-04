@@ -13,8 +13,11 @@ class ConfirmResetScreen extends StatefulWidget {
 }
 
 class _ConfirmResetScreenState extends State<ConfirmResetScreen> {
+  //controller for the verification code
   final _controller = TextEditingController();
+  //controller for the new password
   final _newPasswordController = TextEditingController();
+  //boolean value to check if user entered something in the controller
   bool _isEnabled = false;
   bool _obscureText = true;
 
@@ -33,6 +36,7 @@ class _ConfirmResetScreenState extends State<ConfirmResetScreen> {
     });
   }
 
+  //password reset
   void _resetPassword(BuildContext context, LoginData data, String code,
       String password) async {
     try {

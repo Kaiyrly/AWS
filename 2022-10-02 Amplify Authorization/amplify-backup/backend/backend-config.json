@@ -1,6 +1,6 @@
 {
   "auth": {
-    "20221002amplifyauthoaf6825f3": {
+    "amplifyautha55a1e67": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
@@ -28,7 +28,7 @@
     }
   },
   "analytics": {
-    "20221002amplifyautho": {
+    "amplifyauth": {
       "service": "Pinpoint",
       "providerPlugin": "awscloudformation"
     }

@@ -1,6 +1,6 @@
 export type AmplifyDependentResourcesAttributes = {
     "auth": {
-        "20221002amplifyauthoaf6825f3": {
+        "amplifyautha55a1e67": {
             "IdentityPoolId": "string",
             "IdentityPoolName": "string",
             "UserPoolId": "string",
@@ -11,7 +11,7 @@ export type AmplifyDependentResourcesAttributes = {
         }
     },
     "analytics": {
-        "20221002amplifyautho": {
+        "amplifyauth": {
             "Region": "string",
             "Id": "string",
             "appName": "string"

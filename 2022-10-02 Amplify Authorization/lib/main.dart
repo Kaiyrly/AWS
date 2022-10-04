@@ -10,6 +10,7 @@ import 'helpers/configure_amplify.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  //configure
   await configureAmplify();
   runApp(MyApp());
 }
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.deepPurple,
       ),
       onGenerateRoute: (settings) {
+        //Signup confirmation page
         if (settings.name == '/confirm') {
           return PageRouteBuilder(
             pageBuilder: (_, __, ___) =>
@@ -33,6 +35,7 @@ class MyApp extends StatelessWidget {
           );
         }
 
+        //Reset password page
         if (settings.name == '/confirm-reset') {
           return PageRouteBuilder(
             pageBuilder: (_, __, ___) =>
@@ -41,6 +44,8 @@ class MyApp extends StatelessWidget {
           );
         }
 
+
+        //Logged in page
         if (settings.name == '/dashboard') {
           return PageRouteBuilder(
             pageBuilder: (_, __, ___) => DashboardScreen(),
@@ -48,6 +53,7 @@ class MyApp extends StatelessWidget {
           );
         }
 
+        //Signup screen
         return MaterialPageRoute(builder: (_) => EntryScreen());
       },
     );

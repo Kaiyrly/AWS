@@ -13,6 +13,7 @@ class ConfirmScreen extends StatefulWidget {
 }
 
 class _ConfirmScreenState extends State<ConfirmScreen> {
+  // controller for the verification code
   final _controller = TextEditingController();
   bool _isEnabled = false;
 
@@ -25,7 +26,7 @@ class _ConfirmScreenState extends State<ConfirmScreen> {
       });
     });
   }
-
+  //verify the code
   void _verifyCode(BuildContext context, LoginData data, String code) async {
     try {
       final res = await Amplify.Auth.confirmSignUp(
@@ -47,6 +48,7 @@ class _ConfirmScreenState extends State<ConfirmScreen> {
     }
   }
 
+  // request the code resend
   void _resendCode(BuildContext context, LoginData data) async {
     try {
       await Amplify.Auth.resendSignUpCode(username: data.name);
